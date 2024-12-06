@@ -84,8 +84,8 @@
 
 
 ### 📂 Project Index
-<details open>
-	<summary><b><code>CRYP2CHAT/</code></b></summary>
+<details closed>
+	<summary><b><code>Cryp2Chat/</code></b></summary>
 	<details>
 		<summary><b>Makefile</b></summary>
 		<blockquote>
@@ -229,21 +229,21 @@ Install Cryp2Chat using one of the following methods:
 ❯ make build
 ```
 
-3. Compile Server:
+4. Compile Server:
 ```sh
 ❯ make server
 ```
 
-4. Compile Client:
+5. Compile Client:
 ```sh
 ❯ make client
 ```
 
-3. Clean compiled program:
+**Clean compiled program:**
 ```sh
 ❯ make clean
 ```
-3. Generation of RSA keys:
+**Generation of RSA keys:**
 ```sh
 openssl genrsa -out server-key/private_key.pem 2048
 openssl rsa -in server-key/private_key.pem -outform PEM -pubout -out server-key/public_key.pem
