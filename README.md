@@ -224,15 +224,26 @@ Install Cryp2Chat using one of the following methods:
 ❯ cd Cryp2Chat
 ```
 
-3. Compile Program:
+3. Build Program:
 ```sh
 ❯ make build
 ```
+
+3. Compile Server:
+```sh
+❯ make server
+```
+
+4. Compile Client:
+```sh
+❯ make client
+```
+
 3. Clean compiled program:
 ```sh
 ❯ make clean
 ```
-3. Generation of RSA keys::
+3. Generation of RSA keys:
 ```sh
 openssl genrsa -out server-key/private_key.pem 2048
 openssl rsa -in server-key/private_key.pem -outform PEM -pubout -out server-key/public_key.pem
@@ -247,7 +258,7 @@ Start client with terminal:
 ```sh
 ❯ ./client
 ```
-Log in: User names and passwords are predefined:
+Log in: User names and passwords are predefined(database.c):
 ```sh
 ❯ Username : n0n0
 ❯ Password : n0n0
