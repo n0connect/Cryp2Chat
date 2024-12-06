@@ -84,7 +84,117 @@
 
 
 ### 📂 Project Index
-<details open> <summary><b><code>CRYP2CHAT/</code></b></summary> <details> <summary><b>Makefile</b></summary> <blockquote> <table> <tr> <td><b>Makefile</b></td> <td>Projenin derlenmesi için kullanılan talimat dosyası.</td> </tr> </table> </blockquote> </details> <details> <summary><b>src</b></summary> <blockquote> <table> <tr> <td><b>TCPClient.c</b></td> <td>İstemci tarafı için gerekli işlevlerin kodlandığı dosya.</td> </tr> <tr> <td><b>TCPServer.c</b></td> <td>Sunucu tarafı için gerekli işlevlerin kodlandığı dosya.</td> </tr> <tr> <td><b>cryp2.cpp</b></td> <td>Şifreleme işlevleri ile ilgili kodların yer aldığı dosya.</td> </tr> <tr> <td><b>database.c</b></td> <td>Kullanıcı doğrulama ve veri tabanı işlevleri.</td> </tr> <tr> <td><b>strtohex.c</b></td> <td>String'leri hexadecimal formata dönüştürme ve geri alma işlevleri.</td> </tr> <tr> <td><b>lock3r.cpp</b></td> <td>Şifreleme veya bağlantı yönetimi ile ilgili kodlar.</td> </tr> <tr> <td><b>md5apic.c</b></td> <td>MD5 tabanlı hashing işlemleri.</td> </tr> <tr> <td><b>socketutil.c</b></td> <td>Soket yönetimi ve yardımcı işlevler.</td> </tr> </table> </blockquote> </details> <details> <summary><b>server-key</b></summary> <blockquote> <table> <tr> <td><b>rsakeygen_openssl.txt</b></td> <td>RSA anahtarı oluşturma komutları.</td> </tr> </table> </blockquote> </details> <details> <summary><b>headers</b></summary> <blockquote> <table> <tr> <td><b>logmacro.h</b></td> <td>Loglama işlemleri için makro tanımları.</td> </tr> <tr> <td><b>cryp2.h</b></td> <td>Şifreleme ile ilgili başlık dosyası.</td> </tr> <tr> <td><b>md5apic.h</b></td> <td>MD5 işlemleri için başlık dosyası.</td> </tr> <tr> <td><b>strtohex.h</b></td> <td>String ve hex dönüşümleri için başlık dosyası.</td> </tr> <tr> <td><b>socketutil.h</b></td> <td>Soket işlemleri için başlık dosyası.</td> </tr> <tr> <td><b>database.h</b></td> <td>Veri tabanı işlevleri ile ilgili başlık dosyası.</td> </tr> <tr> <td><b>cryptology.h</b></td> <td>Kriptografik işlemler için başlık dosyası.</td> </tr> <tr> <td><b>tcpclient.h</b></td> <td>İstemci tarafı için başlık dosyası.</td> </tr> <tr> <td><b>tcpserver.h</b></td> <td>Sunucu tarafı için başlık dosyası.</td> </tr> <tr> <td><b>colorcodes.h</b></td> <td>Terminal çıktıları için renk kodları.</td> </tr> </table> </blockquote> </details> </details>
+<details open>
+	<summary><b><code>CRYP2CHAT/</code></b></summary>
+	<details>
+		<summary><b>Makefile</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b>Makefile</b></td>
+				<td>The instruction file used to compile the project.</td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details>
+		<summary><b>src</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b>TCPClient.c</b></td>
+				<td>Contains functions necessary for the client side.</td>
+			</tr>
+			<tr>
+				<td><b>TCPServer.c</b></td>
+				<td>Contains functions necessary for the server side.</td>
+			</tr>
+			<tr>
+				<td><b>cryp2.cpp</b></td>
+				<td>Includes code related to encryption functions.</td>
+			</tr>
+			<tr>
+				<td><b>database.c</b></td>
+				<td>Handles user authentication and database functions.</td>
+			</tr>
+			<tr>
+				<td><b>strtohex.c</b></td>
+				<td>Handles the conversion of strings to hexadecimal format and back.</td>
+			</tr>
+			<tr>
+				<td><b>lock3r.cpp</b></td>
+				<td>Includes code related to encryption or connection management.</td>
+			</tr>
+			<tr>
+				<td><b>md5apic.c</b></td>
+				<td>Implements MD5-based hashing functions.</td>
+			</tr>
+			<tr>
+				<td><b>socketutil.c</b></td>
+				<td>Manages socket operations and utility functions.</td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details>
+		<summary><b>server-key</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b>rsakeygen_openssl.txt</b></td>
+				<td>Commands for generating RSA keys.</td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details>
+		<summary><b>headers</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b>logmacro.h</b></td>
+				<td>Macro definitions for logging operations.</td>
+			</tr>
+			<tr>
+				<td><b>cryp2.h</b></td>
+				<td>Header file for encryption-related functions.</td>
+			</tr>
+			<tr>
+				<td><b>md5apic.h</b></td>
+				<td>Header file for MD5 operations.</td>
+			</tr>
+			<tr>
+				<td><b>strtohex.h</b></td>
+				<td>Header file for string and hex conversions.</td>
+			</tr>
+			<tr>
+				<td><b>socketutil.h</b></td>
+				<td>Header file for socket operations.</td>
+			</tr>
+			<tr>
+				<td><b>database.h</b></td>
+				<td>Header file for database functions.</td>
+			</tr>
+			<tr>
+				<td><b>cryptology.h</b></td>
+				<td>Header file for cryptographic operations.</td>
+			</tr>
+			<tr>
+				<td><b>tcpclient.h</b></td>
+				<td>Header file for the client side.</td>
+			</tr>
+			<tr>
+				<td><b>tcpserver.h</b></td>
+				<td>Header file for the server side.</td>
+			</tr>
+			<tr>
+				<td><b>colorcodes.h</b></td>
+				<td>Defines color codes for terminal output.</td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+</details> 
 
 ---
 ## 🚀 Getting Started
@@ -154,7 +264,7 @@ To test RSA encryption and connectivity, examine the client_log.log file. This f
 - [x] **`Task 3`**: <strike>RSA and AES encryption integration.</strike>
 - [ ] **`Task 4`**: GUI based client application.
 - [ ] **`Task 5`**: Wider user database support.
-- [ ] **`Task 6`**: Carpraz platform support.
+- [ ] **`Task 6`**: Cross platform support.
 - [ ] **`Task 7`**: Enhanced unique Client-Server communication reliability, Discrete algorithms, Degradable fragments or files in case of access breach, support for high-level security and true end-to-end encryption.
 
 ---
