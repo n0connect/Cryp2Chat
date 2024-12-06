@@ -8,4 +8,4 @@ openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:204
 openssl rsa -in private_key.pem -pubout -out public_key.pem
 
 
-chmod 600 /home/n0connect/Masaüstü/SocketProgramming/server-key/*.pem
+chmod 600 ../server-key/*.pem
